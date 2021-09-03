@@ -1,0 +1,51 @@
+*{
+    padding-top: 0px;
+    margin: 0px;
+}
+
+.group-button{
+    margin-top: 50px;
+    background-color: #7f8c8d;
+    text-align: center;
+
+}
+.group-button ul{
+    list-style-type: none;
+}
+.group-button ul li {
+    display: inline-block;
+    width: 120px;
+    height: 40px;
+    /* line-height: 40px; */
+    margin-left: 150px;
+    /* text-align: center; */
+}
+.dropdown-menu a:hover{
+    background:#27ae60 ;
+}
+@media screen and (max-width:900px) {
+    .group-button ul li:not(:first-child){
+        background-color: aqua;
+        display: none;
+    }
+    
+}
+
+/* phan form chung */
+.form-group{
+    padding: 20px;
+}
+.form-group .top-form{
+    text-align: center;
+}
+.form-group .top-form label{
+    color: #f1c40f;
+    font-weight: bolder;
+}
+.form-group p label{
+    color:#2a10d8 ;
+}
+
+
+
+
